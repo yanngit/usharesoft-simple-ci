@@ -14,7 +14,7 @@ public class Calculator {
     }
 
     public float divide(int numberOne, int numberTwo) {
-        return (float)numberOne / (float)numberTwo;
+        return (float) numberOne / (float) numberTwo;
     }
     
     public float multiply(int numberOne, int numberTwo) {
