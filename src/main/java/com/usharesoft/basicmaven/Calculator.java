@@ -19,7 +19,6 @@ public class Calculator {
     
     public int multiply(int numberOne, int numberTwo) {
         return numberOne * numberTwo;
-        //test//
     }
 
 }
