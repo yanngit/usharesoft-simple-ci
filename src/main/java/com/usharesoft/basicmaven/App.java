@@ -19,5 +19,6 @@ public class App {
 
         float multiply = calculator.multiply(5, 10);
         System.out.println("5 x 10 = " + multiply);
+        
     }
 }

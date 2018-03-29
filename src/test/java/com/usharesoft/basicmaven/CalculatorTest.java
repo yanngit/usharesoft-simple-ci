@@ -60,7 +60,7 @@ public class CalculatorTest {
         float divide = calculator.divide(7, 2);
 
         //then
-        assertThat(divide).isEqualTo(new Float(3.5));
+        assertThat(divide).isEqualTo(3.5F);
     }
 
     @Test
