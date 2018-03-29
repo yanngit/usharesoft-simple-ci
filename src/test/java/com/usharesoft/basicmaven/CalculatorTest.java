@@ -62,7 +62,7 @@ public class CalculatorTest {
         //then
         assertThat(divide).isEqualTo(3.5F);
     }
-
+  
     @Test
     public void multiply_should_multiply_seven_by_two() {
         //given
