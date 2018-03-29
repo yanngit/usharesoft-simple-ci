@@ -1,4 +1,5 @@
-# Simple CI
+#
+Simple CI
 Just a basic repo to play with Jenkins, Docker and Maven
 
 # What you have to do

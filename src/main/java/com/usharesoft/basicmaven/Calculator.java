@@ -18,7 +18,7 @@ public class Calculator {
     }
     
     public int multiply(int numberOne, int numberTwo) {
-        throw new UnsupportedOperationException();
+        return numberOne * numberTwo;
     }
 
 }
