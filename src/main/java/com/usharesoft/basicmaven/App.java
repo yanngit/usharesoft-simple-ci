@@ -20,6 +20,5 @@ public class App {
         int multiply = calculator.multiply(5, 10);
         System.out.println("5 x 10 = " + multiply);
         
-        System.out.println("Copyrights Thomas Beck");
     }
 }
