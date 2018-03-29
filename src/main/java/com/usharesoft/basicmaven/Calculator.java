@@ -13,8 +13,8 @@ public class Calculator {
         return numberOne - numberTwo;
     }
 
-    public int divide(int numberOne, int numberTwo) {
-        return numberOne / numberTwo;
+    public float divide(int numberOne, int numberTwo) {
+        return (float) numberOne / (float) numberTwo;
     }
     
     public int multiply(int numberOne, int numberTwo) {

@@ -46,7 +46,7 @@ public class CalculatorTest {
         //given
 
         //when
-        int divide = calculator.divide(6, 2);
+        float divide = calculator.divide(6, 2);
 
         //then
         assertThat(divide).isEqualTo(3);
@@ -57,7 +57,7 @@ public class CalculatorTest {
         //given
 
         //when
-        int divide = calculator.divide(7, 2);
+        float divide = calculator.divide(7, 2);
 
         //then
         assertThat(divide).isEqualTo(3.5);
