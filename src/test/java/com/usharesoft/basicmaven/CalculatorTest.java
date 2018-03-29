@@ -22,10 +22,10 @@ public class CalculatorTest {
         int numberTwo = 10;
 
         //when
-        int sum = calculator.add(numberOne, numberTwo);
+        float sum = calculator.add(numberOne, numberTwo);
 
         //then
-        assertThat(sum).isEqualTo(15);
+        assertThat(sum).isEqualTo(new Float(15));
     }
 
     @Test
@@ -35,10 +35,10 @@ public class CalculatorTest {
         int numberTwo = 10;
 
         //when
-        int subtract = calculator.subtract(numberOne, numberTwo);
+        float subtract = calculator.subtract(numberOne, numberTwo);
 
         //then
-        assertThat(subtract).isEqualTo(-5);
+        assertThat(subtract).isEqualTo(new Float(-5));
     }
 
     @Test
@@ -46,10 +46,10 @@ public class CalculatorTest {
         //given
 
         //when
-        int divide = calculator.divide(6, 2);
+        float divide = calculator.divide(6, 2);
 
         //then
-        assertThat(divide).isEqualTo(3);
+        assertThat(divide).isEqualTo(new Float(3));
     }
 
     @Test
@@ -57,22 +57,21 @@ public class CalculatorTest {
         //given
 
         //when
-        int divide = calculator.divide(7, 2);
+        float divide = calculator.divide(7, 2);
 
         //then
-        assertThat(divide).isEqualTo(3.5);
+        assertThat(divide).isEqualTo(new Float(3.5));
     }
 
-    @Ignore
     @Test
     public void multiply_should_multiply_seven_by_two() {
         //given
 
         //when
-        int multiply = calculator.multiply(7, 2);
+        float multiply = calculator.multiply(7, 2);
 
         //then
         //TODO fix this
-        assertThat(multiply).isEqualTo(14);
+        assertThat(multiply).isEqualTo(new Float(14));
     }
 }
