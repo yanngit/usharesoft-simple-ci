@@ -57,13 +57,12 @@ public class CalculatorTest {
         //given
 
         //when
-        float divide = calculator.divide(7, 2);
+        int divide = calculator.divide(7, 2);
 
         //then
-        assertThat(divide).isEqualTo(3.5);
+        assertThat(divide).isEqualTo(3);
     }
 
-    @Ignore
     @Test
     public void multiply_should_multiply_seven_by_two() {
         //given
